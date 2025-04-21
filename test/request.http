@@ -1,4 +1,14 @@
 ####
+GET http://localhost:4004/bookshop/Books
+content-type: application/json
+Authorization: Basic base64-user-password
+
+####
+GET http://localhost:4004/bookshop/totalToPay(ID=1)
+content-type: application/json
+Authorization: Basic base64-user-password
+
+####
 GET http://localhost:4004/bookshop/startFunction()
 content-type: application/json
 Authorization: Basic base64-user-password
