@@ -1,0 +1,4 @@
+####
+GET http://localhost:4004/bookshop/startFunction()
+content-type: application/json
+Authorization: Basic base64-user-password
