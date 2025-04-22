@@ -4,7 +4,6 @@ using {sap.capire.bookshop as db} from '../db/schema';
 @path    : '/bookshop'
 service BookshopService {
     entity Books as projection on db.Books;
-    function totalToPay(ID : Books:ID) returns Integer;
-    // test
-    function startFunction()           returns String;
+    function totalToPay(ID : Books:ID) returns String;
+    function authorBook(ID : Books:ID) returns String;
 }

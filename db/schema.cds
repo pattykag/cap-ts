@@ -18,6 +18,7 @@ entity Authors {
         dateOfDeath  : Date;
         placeOfBirth : String;
         placeOfDeath : String;
+        test         : Association to Tests;
         books        : Association to many Books
                            on books.author = $self;
 }
@@ -25,4 +26,9 @@ entity Authors {
 entity Genres {
     ID   : Integer;
     name : String(255);
+}
+
+entity Tests {
+    key ID   : Integer;
+        name : String;
 }

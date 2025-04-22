@@ -4,11 +4,11 @@ content-type: application/json
 Authorization: Basic base64-user-password
 
 ####
-GET http://localhost:4004/bookshop/totalToPay(ID=1)
+GET http://localhost:4004/bookshop/totalToPay(ID=2)
 content-type: application/json
 Authorization: Basic base64-user-password
 
 ####
-GET http://localhost:4004/bookshop/startFunction()
+GET http://localhost:4004/bookshop/authorBook(ID=1)
 content-type: application/json
 Authorization: Basic base64-user-password
